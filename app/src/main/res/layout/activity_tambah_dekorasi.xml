@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dekorasi.TambahDekorasiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama : "/>
+
+        <EditText
+            android:id="@+id/etNamaDekorasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga : "/>
+
+        <EditText
+            android:id="@+id/etHargaDekorasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Harga"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi : "/>
+
+        <EditText
+            android:id="@+id/etDeskripsiDekorasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Deskripsi"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Gambar 1 : "/>
+
+    <ImageButton
+        android:id="@+id/btnGambarDekorasi1"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:background="#2196F3"
+        app:srcCompat="@drawable/ic_cloud_upload_white_24dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Gambar 2 : "/>
+    <ImageButton
+        android:id="@+id/btnGambarDekorasi2"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:background="#2196F3"
+        app:srcCompat="@drawable/ic_cloud_upload_white_24dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Gambar 3 : "/>
+    <ImageButton
+        android:id="@+id/btnGambarDekorasi3"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:background="#2196F3"
+        app:srcCompat="@drawable/ic_cloud_upload_white_24dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnUploadDekorasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Dekorasi"
+        android:layout_margin="20dp"/>
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
